@@ -2,3 +2,4 @@ Faker
 argparse
 numpy
 pandas
+pytest

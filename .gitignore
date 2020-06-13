@@ -6,5 +6,9 @@
 *.code-workspace
 .history/
 
+# Ignore pytest
+__pycache__/
+.pytest_cache/
+
 # We use this directory to output dynamic stuff that shouldn't be under version control
 output/

@@ -23,10 +23,27 @@ def init_argparse() -> argparse.ArgumentParser:
     return parser
 
 def random_date(start, end, l):
-   while l >= 0:
-      curr = fake.date_time_between(start_date=start, end_date=end)
-      yield curr
-      l-=1
+    '''Returns a list of random dates between the start and end dates provided.
+
+    Parameters
+    ----------
+    start : datetime
+        Earliest possible date
+    end : datetime
+        Latest possible date
+    l : int
+        Number of entries to generate
+
+    Returns
+    -------
+    list
+        Random dates between the start and end dates
+    ''' 
+    random_dates = list()
+    while 0 < l:
+        random_dates.append(fake.date_time_between(start_date=start, end_date=end))
+        l-=1
+    return random_dates
 
 def generate_entries(config):
     entries = config['entries']
