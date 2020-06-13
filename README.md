@@ -1,5 +1,6 @@
 # Random Survey Results
 
+![Python application](https://github.com/allanlykkechristensen/random_survey_results/workflows/Python%20application/badge.svg)
 ![GitHub repo size](https://img.shields.io/github/repo-size/allanlykkechristensen/random_survey_results)
 ![GitHub contributors](https://img.shields.io/github/contributors/allanlykkechristensen/random_survey_results)
 ![GitHub stars](https://img.shields.io/github/stars/allanlykkechristensen/random_survey_results)
