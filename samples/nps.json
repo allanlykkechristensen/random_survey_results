@@ -1,0 +1,50 @@
+{
+    "entries": 50,
+    "questions": [
+        {
+            "question": "Timestamp",
+            "answers": {
+                "type": "datetime",
+                "start": "20190601",
+                "end": "20200630"
+            }
+        },
+        {
+            "question": "Channel",
+            "answers": {
+                "type": "choice",
+                "choices": [
+                    "Website",
+                    "Mobile App (iOS)",
+                    "Mobile App (Android)",
+                    "Website Shop"
+                ]
+            }
+        },
+        {
+            "question": "Location",
+            "answers": {
+                "type": "choice",
+                "choices": [
+                    "DK",
+                    "MX",
+                    "US",
+                    "GB",
+                    "IE",
+                    "DE",
+                    "ES",
+                    "RU",
+                    "IT"
+                ]
+            }
+        },
+        {
+            "question": "Score",
+            "answers": {
+                "type": "int",
+                "start": "0",
+                "end": "11"
+            }
+        }
+   ]
+}
