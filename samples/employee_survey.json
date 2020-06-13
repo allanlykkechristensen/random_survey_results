@@ -1,0 +1,156 @@
+{
+    "entries": 1000,
+    "questions": [
+        {
+            "question": "Date",
+            "answers": {
+                "type": "datetime",
+                "start": "20200101",
+                "end": "20200630"
+            }
+        },
+        {
+            "question": "How many years have you worked for Acme Corporation?",
+            "answers": {
+                "type": "int",
+                "start": "0",
+                "end": "15"
+            }
+        },
+        {
+            "question": "In which business unit do you currently work?",
+            "answers": {
+                "type": "choice",
+                "choices": [
+                    "Human Resources",
+                    "Research and Development",
+                    "Production",
+                    "Sales and Marketing", 
+                    "Customer Service",
+                    "Finance and Administration"
+                ]
+            }
+        },
+        {
+            "question": "In which office are you currently working?",
+            "answers": {
+                "type": "choice",
+                "choices": [
+                    "DK",
+                    "MX",
+                    "US",
+                    "GB",
+                    "IE",
+                    "DE",
+                    "ES",
+                    "RU",
+                    "IT"
+                ]
+            }
+        },
+        {
+            "question": "How satisfied are you with working at Acme Corporation?",
+            "answers": {
+                "type": "int",
+                "start": "4",
+                "end": "10"
+            }
+        },
+        {
+            "question": "My performance is measured against clearly defined outcomes and metrics.",
+            "answers": {
+                "type": "int",
+                "start": "1",
+                "end": "5"
+            }
+        },
+        {
+            "question": "I have access to everything that I need to perform at my job.",
+            "answers": {
+                "type": "int",
+                "start": "1",
+                "end": "5"
+            }
+        },
+        {
+            "question": "My strengths are recognized and I put them into practice every day.",
+            "answers": {
+                "type": "int",
+                "start": "1",
+                "end": "5"
+            }
+        },
+        {
+            "question": "I receive meaningful recognition for doing a good job.",
+            "answers": {
+                "type": "int",
+                "start": "1",
+                "end": "5"
+            }
+        },
+        {
+            "question": "I am happy with the relationship with my manager.",
+            "answers": {
+                "type": "int",
+                "start": "1",
+                "end": "5"
+            }
+        },
+        {
+            "question": "My manager supports me to get better at my valued skills.",
+            "answers": {
+                "type": "int",
+                "start": "1",
+                "end": "5"
+            }
+        },
+        {
+            "question": "My opinions matter and are taken into consideration.",
+            "answers": {
+                "type": "int",
+                "start": "1",
+                "end": "5"
+            }
+        },
+        {
+            "question": "My job counts towards achieving the goals of the organization.",
+            "answers": {
+                "type": "int",
+                "start": "1",
+                "end": "5"
+            }
+        },
+        {
+            "question": "My colleagues are accountable for doing quality work.",
+            "answers": {
+                "type": "int",
+                "start": "1",
+                "end": "5"
+            }
+        },
+        {
+            "question": "I consider at least one of my colleagues to be a true friend.",
+            "answers": {
+                "type": "int",
+                "start": "1",
+                "end": "5"
+            }
+        },
+        {
+            "question": "I have received support for personal growth and development in the last six months.",
+            "answers": {
+                "type": "int",
+                "start": "1",
+                "end": "5"
+            }
+        },
+        {
+            "question": "There are ongoing opportunities for learning and growth in my role.",
+            "answers": {
+                "type": "int",
+                "start": "1",
+                "end": "5"
+            }
+        }
+    ]
+}
