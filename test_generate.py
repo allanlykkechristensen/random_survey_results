@@ -1,6 +1,7 @@
 import pytest
 import generate
-import datetime 
+import datetime
+
 
 class TestRandomDate:
 
@@ -9,7 +10,7 @@ class TestRandomDate:
         start_date = datetime.datetime.strptime("20200110", "%Y%m%d")
         end_date = datetime.datetime.strptime("20200120", "%Y%m%d")
         entries = 1
-        
+
         # When
         observed = generate.random_date(start_date, end_date, entries)
 
@@ -21,7 +22,7 @@ class TestRandomDate:
         start_date = datetime.datetime.strptime("20200110", "%Y%m%d")
         end_date = datetime.datetime.strptime("20200120", "%Y%m%d")
         entries = 10
-        
+
         # When
         observed = generate.random_date(start_date, end_date, entries)
 
