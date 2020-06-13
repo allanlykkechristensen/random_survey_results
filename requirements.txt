@@ -1,0 +1,4 @@
+Faker
+argparse
+numpy
+pandas
