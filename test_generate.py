@@ -1,4 +1,3 @@
-import pytest
 import generate
 import datetime
 
