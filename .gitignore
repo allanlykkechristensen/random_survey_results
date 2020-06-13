@@ -1,0 +1,10 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# We use this directory to output dynamic stuff that shouldn't be under version control
+output/
