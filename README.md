@@ -10,6 +10,7 @@ Random Survey Results is a utility that allows data people to do generate random
 Purpose of the application is to quickly generate some random data that appears to come from a survey and can be used for practising data wrangling and analysis.
 
 The current version support the random generation of a survey that contains the following column types:
+
 - datetime (a column with a date and time in a given range)
 - int (a column with a random integer in a given range)
 - choice (a column with a random value from a choice of possible values)
@@ -18,13 +19,13 @@ The current version support the random generation of a survey that contains the 
 
 Before you begin, ensure you have met the following requirements:
 
-* You have installed the latest version of Python 3
+- You have installed the latest version of Python 3
 
 ## Installing the Python Prerequisites
 
 To install random_survey_results, follow these steps:
 
-```
+```bash
 git clone https://github.com/allanlykkechristensen/random_survey_results
 cd random_survey_results
 pip install -f requirements.txt
@@ -34,8 +35,8 @@ pip install -f requirements.txt
 
 To use random_survey_results, follow these steps:
 
-```
-python generate.py --config sample/nps.json --header
+```bash
+python random_survey_results.py --config sample/nps.json --header
 ```
 
 ## Contributing to Random Survey Results
@@ -52,7 +53,7 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 
 ## Contributors
 
-* [@bigallan](https://github.com/allanlykkechristensen)
+- [@bigallan](https://github.com/allanlykkechristensen)
 
 ## Contact
 

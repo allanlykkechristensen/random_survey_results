@@ -1,4 +1,4 @@
-import generate
+import random_survey_results
 import datetime
 
 
@@ -11,7 +11,7 @@ class TestRandomDate:
         entries = 1
 
         # When
-        observed = generate.random_date(start_date, end_date, entries)
+        observed = random_survey_results.random_date(start_date, end_date, entries)
 
         # Then
         assert len(observed) == 1
@@ -23,7 +23,7 @@ class TestRandomDate:
         entries = 10
 
         # When
-        observed = generate.random_date(start_date, end_date, entries)
+        observed = random_survey_results.random_date(start_date, end_date, entries)
 
         # Then
         assert len(observed) == 10
